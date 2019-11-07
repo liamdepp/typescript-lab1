@@ -43,7 +43,6 @@ products.push({name: "Ham sub", price: 12});
 // Calculate average function
 function calcAverageProductPrice (arrayOfProducts: Product[]): number {
   let total: number = 0;
-  let average: number = 0;
   for (const product of arrayOfProducts) {
     total += product.price;
   }

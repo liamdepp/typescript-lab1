@@ -24,7 +24,6 @@ products.push({ name: "Turkey sub", price: 8 });
 products.push({ name: "Ham sub", price: 12 });
 function calcAverageProductPrice(arrayOfProducts) {
     let total = 0;
-    let average = 0;
     for (const product of arrayOfProducts) {
         total += product.price;
     }
